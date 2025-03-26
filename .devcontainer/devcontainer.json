@@ -1,6 +1,17 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/typescript-node",
+  "name": "LobeChat Dev",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:22",
   "features": {
+    "ghcr.io/devcontainers/features/node:1": { "version": "22" },
     "ghcr.io/devcontainer-community/devcontainer-features/bun.sh:1": {}
+  },
+  "postCreateCommand": "npm install -g pnpm && pnpm install",
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
+    }
+  },
+  "portsAttributes": {
+    "3010": { "label": "Application", "onAutoForward": "openPreview" }
   }
 }
