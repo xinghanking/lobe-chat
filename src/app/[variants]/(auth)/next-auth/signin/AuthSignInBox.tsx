@@ -1,6 +1,6 @@
 'use client';
 
-import { LobeChat } from '@lobehub/ui/brand';
+import { LobeChat as NewtonAI } from '@lobehub/ui/brand';
 import { Button, Col, Flex, Row, Skeleton, Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import { AuthError } from 'next-auth';
@@ -112,9 +112,9 @@ export default memo(() => {
           <div className={styles.text}>
             <Title className={styles.title} level={4}>
               <div>
-                <LobeChat size={48} />
+                <NewtonAI size={48} />
               </div>
-              {t('signIn.start.title', { applicationName: 'LobeChat' })}
+              {t('signIn.start.title', { applicationName: 'NewtonAI' })}
             </Title>
             <Paragraph className={styles.description}>{t('signIn.start.subtitle')}</Paragraph>
           </div>

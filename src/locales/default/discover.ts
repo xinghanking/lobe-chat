@@ -56,7 +56,7 @@ export default {
       desc1: '在会话窗口中通过右上角设置进入你想提交助手的设置页面;',
       desc2: '点击右上角提交到助手市场按钮。',
       tag: '方法一',
-      title: '通过 LobeChat 提交',
+      title: '通过 NewtonAI 提交',
     },
     func2: {
       button: '前往 Github 助手仓库',
@@ -143,7 +143,7 @@ export default {
       type: '类型',
     },
     providerInfo: {
-      apiTooltip: 'LobeChat 支持为此提供商使用自定义 API 密钥。',
+      apiTooltip: 'NewtonAI 支持为此提供商使用自定义 API 密钥。',
       input: '输入价格',
       inputTooltip: '每百万个 Token 的成本',
       latency: '延迟',
