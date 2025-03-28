@@ -1038,7 +1038,7 @@
       "email": "user@example.com",
       "emailVerified": false,
       "phone": "13245678910",
-      "countryCode": "US",
+      "countryCode": "zh-CN",
       "region": "",
       "location": "",
       "address": [],
