@@ -7,7 +7,7 @@ export const LOBE_CHAT_CLOUD = 'NewtonAI Cloud';
 export const BRANDING_NAME = 'NewtonAI';
 export const BRANDING_LOGO_URL = '';
 
-export const ORG_NAME = 'LobeHub';
+export const ORG_NAME = 'NewtonAI';
 
 export const BRANDING_URL = {
   help: undefined,
