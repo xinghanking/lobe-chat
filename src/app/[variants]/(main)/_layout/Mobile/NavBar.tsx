@@ -54,7 +54,7 @@ const NavBar = memo(() => {
           ),
           key: SidebarTabKey.Discover,
           onClick: () => {
-            router.push('/discover');
+            router.push('/discover/models');
           },
           title: t('tab.discover'),
         },
