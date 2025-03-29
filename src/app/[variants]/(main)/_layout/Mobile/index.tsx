@@ -11,15 +11,7 @@ import { featureFlagsSelectors, useServerConfigStore } from '@/store/serverConfi
 import NavBar from './NavBar';
 
 const CloudBanner = dynamic(() => import('@/features/AlertBanner/CloudBanner'));
-const MOBILE_NAV_ROUTES = new Set([
-  '/chat',
-  '/discover',
-  '/discover/assistants',
-  '/discover/plugins',
-  '/discover/models',
-  '/discover/providers',
-  '/me',
-]);
+const MOBILE_NAV_ROUTES = new Set(['/chat', '/discover/models', '/me']);
 
 const Layout = memo(({ children }: PropsWithChildren) => {
   const showMobileWorkspace = useShowMobileWorkspace();
