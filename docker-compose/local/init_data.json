@@ -151,7 +151,7 @@
         {
           "name": "Logo",
           "visible": true,
-          "label": "",
+          "label": "NewtonAi",
           "customCss": ".login-logo-box {} \n.panel-logo {\n    width: 80px;\n}",
           "placeholder": "",
           "rule": "None",
