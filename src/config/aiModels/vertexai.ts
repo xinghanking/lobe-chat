@@ -81,6 +81,23 @@ const vertexaiChatModels: AIChatModelCard[] = [
   },
   {
     abilities: {
+      vision: true,
+    },
+    contextWindowTokens: 1_048_576 + 8192,
+    description: '一个 Gemini 2.0 Flash 模型，针对成本效益和低延迟等目标进行了优化。',
+    displayName: 'Gemini 2.0 Flash-Lite Preview 02-05',
+    id: 'gemini-2.0-flash-lite-preview-02-05',
+    maxOutput: 8192,
+    pricing: {
+      cachedInput: 0.018_75,
+      input: 0.075,
+      output: 0.3,
+    },
+    releasedAt: '2025-02-05',
+    type: 'chat',
+  },
+  {
+    abilities: {
       reasoning: true,
       vision: true,
     },
@@ -104,6 +121,7 @@ const vertexaiChatModels: AIChatModelCard[] = [
     contextWindowTokens: 1_000_000 + 8192,
     description: 'Gemini 1.5 Flash 002 是一款高效的多模态模型，支持广泛应用的扩展。',
     displayName: 'Gemini 1.5 Flash 002',
+    enabled: true,
     id: 'gemini-1.5-flash-002',
     maxOutput: 8192,
     pricing: {
@@ -134,6 +152,7 @@ const vertexaiChatModels: AIChatModelCard[] = [
     description:
       'Gemini 1.5 Pro 002 是最新的生产就绪模型，提供更高质量的输出，特别在数学、长上下文和视觉任务方面有显著提升。',
     displayName: 'Gemini 1.5 Pro 002',
+    enabled: true,
     id: 'gemini-1.5-pro-002',
     maxOutput: 8192,
     pricing: {
