@@ -2,6 +2,81 @@
 
 # Changelog
 
+### [Version 1.77.6](https://github.com/lobehub/lobe-chat/compare/v1.77.5...v1.77.6)
+
+<sup>Released on **2025-04-01**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the db to context inject mode.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the db to context inject mode, closes [#7255](https://github.com/lobehub/lobe-chat/issues/7255) ([ffd0dbc](https://github.com/lobehub/lobe-chat/commit/ffd0dbc))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.77.5](https://github.com/lobehub/lobe-chat/compare/v1.77.4...v1.77.5)
+
+<sup>Released on **2025-04-01**</sup>
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.77.4](https://github.com/lobehub/lobe-chat/compare/v1.77.3...v1.77.4)
+
+<sup>Released on **2025-03-31**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor db core.
+
+#### 💄 Styles
+
+- **misc**: Update branding.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor db core, closes [#7245](https://github.com/lobehub/lobe-chat/issues/7245) ([5c71db6](https://github.com/lobehub/lobe-chat/commit/5c71db6))
+
+#### Styles
+
+- **misc**: Update branding, closes [#7224](https://github.com/lobehub/lobe-chat/issues/7224) ([481cab0](https://github.com/lobehub/lobe-chat/commit/481cab0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.77.3](https://github.com/lobehub/lobe-chat/compare/v1.77.2...v1.77.3)
 
 <sup>Released on **2025-03-29**</sup>
